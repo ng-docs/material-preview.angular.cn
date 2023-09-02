@@ -358,6 +358,7 @@ we can show an error if the input is invalid and our component has been touched.
 </code></pre>
 <p>However, there are some error triggers that we can&#39;t subscribe to (e.g. parent form submissions),
 to handle such cases we should re-evaluate <code>errorState</code> on every change detection cycle.</p>
+<p>但是，有一些错误触发器我们无法订阅（例如父表单提交），为了处理此类情况，我们应该在每个变更检测周期重新对 <code>errorState</code> 进行求值。</p>
 <pre><code class="language-ts"><span class="hljs-comment">/** Whether the component is in an error state. */</span>
 <span class="hljs-attr">errorState</span>: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">false</span>;
 
@@ -388,6 +389,7 @@ to handle such cases we should re-evaluate <code>errorState</code> on every chan
 }
 </code></pre>
 <p>Keep in mind that <code>updateErrorState()</code> must have minimal logic to avoid performance issues.</p>
+<p>请记住，<code>updateErrorState()</code> 应该只有尽可能少的逻辑以避免性能问题。</p>
 
         <h4 id="controltype" class="docs-header-link">
           <span header-link="controltype"></span>
