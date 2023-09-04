@@ -16,7 +16,7 @@
 
 
 <div class="docs-api">
-  <h2 id="----angular-material-legacy-checkbox-testing-api-参考文档--">
+  <h2>
     Angular Material legacy-checkbox-testing API 参考文档
   </h2>
     <p>Import symbols from <code>@angular/material/legacy-checkbox/testing</code></p><h3 id="material-legacy-checkbox-testing-classes" class="docs-header-link docs-api-h3">
@@ -30,13 +30,13 @@
   <span header-link="MatLegacyCheckboxHarness"></span>
   <code>MatLegacyCheckboxHarness</code>
   
-</h4><div class="docs-api-class-description"><p translation-result="on">与测试中的标准 mat-checkbox 交互的测试工具。</p><p translation-origin="off">Harness for interacting with a standard mat-checkbox in tests.</p>
-
+</h4><div class="docs-api-class-description"><p>Harness for interacting with a standard mat-checkbox in tests.</p>
+<p>与测试中的标准 mat-checkbox 交互的测试工具。</p>
 </div><div class="docs-api-class-deprecated-marker" title="将会在 v17.0.0 或更高版本中删除">
   已弃用
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性">属性</h5>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -45,20 +45,20 @@
 
 <tr class="docs-api-properties-row">
   <td class="docs-api-properties-name-cell"><p class="docs-api-property-name">
-      <code>static&nbsp;hostSelector: '.mat-checkbox'</code>
+      <code>static&nbsp;hostSelector: &#39;.mat-checkbox&#39;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">复选框实例的宿主元素的选择器。</p><p translation-origin="off">The selector for the host element of a checkbox instance.</p>
-
+  <td class="docs-api-property-description"><p>The selector for the host element of a checkbox instance.</p>
+<p>复选框实例的宿主元素的选择器。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -70,19 +70,21 @@
         </div>blur
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">失焦复选框。</p><p translation-origin="off">Blurs the checkbox.</p>
-
+      <p>Blurs the checkbox.</p>
+<p>失焦复选框。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -92,7 +94,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -106,24 +108,26 @@
         </div>check
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">如果当前未勾选复选框，则把复选框置于已勾选状态;如果复选框已勾选，则不执行任何操作。</p><p translation-origin="off">Puts the checkbox in a checked state by toggling it if it is currently unchecked, or doing
+      <p>Puts the checkbox in a checked state by toggling it if it is currently unchecked, or doing
 nothing if it is already checked.</p>
-
-<p translation-result="on">注意：这会尝试通过单击该复选框来勾选复选框。因此，如果你使用 <code>MAT_CHECKBOX_DEFAULT_OPTIONS</code> 改变过单击的行为，那么调用这个方法可能产生预料之外的效果。</p><p translation-origin="off">Note: This attempts to check the checkbox as a user would, by clicking it. Therefore if you
+<p>如果当前未勾选复选框，则把复选框置于已勾选状态;如果复选框已勾选，则不执行任何操作。</p>
+<p>Note: This attempts to check the checkbox as a user would, by clicking it. Therefore if you
 are using <code>MAT_CHECKBOX_DEFAULT_OPTIONS</code> to change the behavior on click, calling this method
 might not have the expected result.</p>
-
+<p>注意：这会尝试通过单击该复选框来勾选复选框。因此，如果你使用 <code>MAT_CHECKBOX_DEFAULT_OPTIONS</code> 改变过单击的行为，那么调用这个方法可能产生预料之外的效果。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -133,7 +137,7 @@ might not have the expected result.</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -147,19 +151,21 @@ might not have the expected result.</p>
         </div>focus
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">聚焦复选框。</p><p translation-origin="off">Focuses the checkbox.</p>
-
+      <p>Focuses the checkbox.</p>
+<p>聚焦复选框。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -169,7 +175,7 @@ might not have the expected result.</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -183,19 +189,21 @@ might not have the expected result.</p>
         </div>getAriaLabel
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取复选框的 aria-label。</p><p translation-origin="off">Gets the checkbox's aria-label.</p>
-
+      <p>Gets the checkbox&#39;s aria-label.</p>
+<p>获取复选框的 aria-label。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;string | null&gt;</code>
     </td>
@@ -204,7 +212,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -218,19 +226,21 @@ might not have the expected result.</p>
         </div>getAriaLabelledby
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取复选框的 aria-labelledby。</p><p translation-origin="off">Gets the checkbox's aria-labelledby.</p>
-
+      <p>Gets the checkbox&#39;s aria-labelledby.</p>
+<p>获取复选框的 aria-labelledby。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;string | null&gt;</code>
     </td>
@@ -239,7 +249,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -253,19 +263,21 @@ might not have the expected result.</p>
         </div>getLabelText
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取复选框的标签文本。</p><p translation-origin="off">Gets the checkbox's label text.</p>
-
+      <p>Gets the checkbox&#39;s label text.</p>
+<p>获取复选框的标签文本。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;string&gt;</code>
     </td>
@@ -274,7 +286,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -288,19 +300,21 @@ might not have the expected result.</p>
         </div>getName
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取复选框的名字。</p><p translation-origin="off">Gets the checkbox's name.</p>
-
+      <p>Gets the checkbox&#39;s name.</p>
+<p>获取复选框的名字。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;string | null&gt;</code>
     </td>
@@ -309,7 +323,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -323,19 +337,21 @@ might not have the expected result.</p>
         </div>getValue
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取复选框的值。</p><p translation-origin="off">Gets the checkbox's value.</p>
-
+      <p>Gets the checkbox&#39;s value.</p>
+<p>获取复选框的值。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;string | null&gt;</code>
     </td>
@@ -344,7 +360,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -358,19 +374,21 @@ might not have the expected result.</p>
         </div>host
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取一个代表该组件宿主元素的 <code>TestElement</code> 型 <code>Promise</code>。</p><p translation-origin="off">Gets a <code>Promise</code> for the <code>TestElement</code> representing the host element of the component.</p>
-
+      <p>Gets a <code>Promise</code> for the <code>TestElement</code> representing the host element of the component.</p>
+<p>获取一个代表该组件宿主元素的 <code>TestElement</code> 型 <code>Promise</code>。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;TestElement&gt;</code>
     </td>
@@ -379,7 +397,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -393,19 +411,21 @@ might not have the expected result.</p>
         </div>isChecked
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">是否勾选了复选框。</p><p translation-origin="off">Whether the checkbox is checked.</p>
-
+      <p>Whether the checkbox is checked.</p>
+<p>是否勾选了复选框。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -414,7 +434,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -428,19 +448,21 @@ might not have the expected result.</p>
         </div>isDisabled
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该复选框是否已禁用。</p><p translation-origin="off">Whether the checkbox is disabled.</p>
-
+      <p>Whether the checkbox is disabled.</p>
+<p>该复选框是否已禁用。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -449,7 +471,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -463,19 +485,21 @@ might not have the expected result.</p>
         </div>isFocused
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该复选框是否拥有焦点。</p><p translation-origin="off">Whether the checkbox is focused.</p>
-
+      <p>Whether the checkbox is focused.</p>
+<p>该复选框是否拥有焦点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -484,7 +508,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -498,19 +522,21 @@ might not have the expected result.</p>
         </div>isIndeterminate
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该复选框是否处于未决状态。</p><p translation-origin="off">Whether the checkbox is in an indeterminate state.</p>
-
+      <p>Whether the checkbox is in an indeterminate state.</p>
+<p>该复选框是否处于未决状态。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -519,7 +545,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -533,19 +559,21 @@ might not have the expected result.</p>
         </div>isRequired
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该复选框是否必填的。</p><p translation-origin="off">Whether the checkbox is required.</p>
-
+      <p>Whether the checkbox is required.</p>
+<p>该复选框是否必填的。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -554,7 +582,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -568,19 +596,21 @@ might not have the expected result.</p>
         </div>isValid
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该复选框是否有效。</p><p translation-origin="off">Whether the checkbox is valid.</p>
-
+      <p>Whether the checkbox is valid.</p>
+<p>该复选框是否有效。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -589,7 +619,7 @@ might not have the expected result.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -605,11 +635,13 @@ might not have the expected result.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -619,7 +651,7 @@ might not have the expected result.</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -633,24 +665,26 @@ might not have the expected result.</p>
         </div>uncheck
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">如果复选框当前是勾选的，则把它切换到未勾选状态，如果复选框已经是未勾选的，则不做任何操作。</p><p translation-origin="off">Puts the checkbox in an unchecked state by toggling it if it is currently checked, or doing
+      <p>Puts the checkbox in an unchecked state by toggling it if it is currently checked, or doing
 nothing if it is already unchecked.</p>
-
-<p translation-result="on">注意：这会尝试通过单击该复选框来取消勾选该复选框。因此，如果你使用 <code>MAT_CHECKBOX_DEFAULT_OPTIONS</code> 改变过单击时的行为，那么调用这个方法可能产生预料之外的效果。</p><p translation-origin="off">Note: This attempts to uncheck the checkbox as a user would, by clicking it. Therefore if you
+<p>如果复选框当前是勾选的，则把它切换到未勾选状态，如果复选框已经是未勾选的，则不做任何操作。</p>
+<p>Note: This attempts to uncheck the checkbox as a user would, by clicking it. Therefore if you
 are using <code>MAT_CHECKBOX_DEFAULT_OPTIONS</code> to change the behavior on click, calling this method
 might not have the expected result.</p>
-
+<p>注意：这会尝试通过单击该复选框来取消勾选该复选框。因此，如果你使用 <code>MAT_CHECKBOX_DEFAULT_OPTIONS</code> 改变过单击时的行为，那么调用这个方法可能产生预料之外的效果。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -660,7 +694,7 @@ might not have the expected result.</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -674,21 +708,23 @@ might not have the expected result.</p>
         </div>with
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取可用于搜索满足特定条件的复选框组件测试工具的 <code>HarnessPredicate</code> 。</p><p translation-origin="off">Gets a <code>HarnessPredicate</code> that can be used to search for a checkbox harness that meets
+      <p>Gets a <code>HarnessPredicate</code> that can be used to search for a checkbox harness that meets
 certain criteria.</p>
-
+<p>获取可用于搜索满足特定条件的复选框组件测试工具的 <code>HarnessPredicate</code> 。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         options</p>
@@ -696,30 +732,32 @@ certain criteria.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">用于过滤哪些复选框实例应该视为匹配项的选项。</p><p translation-origin="off">Options for filtering which checkbox instances are considered a match.</p>
-
+        <p>Options for filtering which checkbox instances are considered a match.</p>
+<p>用于过滤哪些复选框实例应该视为匹配项的选项。</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">HarnessPredicate&lt;MatLegacyCheckboxHarness&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">使用给定选项配置过的 <code>HarnessPredicate</code>。</p><p translation-origin="off">a <code>HarnessPredicate</code> configured with the given options.</p>
-
+        <p>a <code>HarnessPredicate</code> configured with the given options.</p>
+<p>使用给定选项配置过的 <code>HarnessPredicate</code>。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   

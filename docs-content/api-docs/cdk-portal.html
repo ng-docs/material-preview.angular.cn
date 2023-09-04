@@ -16,7 +16,7 @@
 
 
 <div class="docs-api">
-  <h2 id="----angular-cdk-portal-api-参考文档--">
+  <h2>
     Angular CDK portal API 参考文档
   </h2><p class="docs-api-module-import">
       <code>
@@ -41,18 +41,18 @@
     </a>
   </span>
   
-</h4><div class="docs-api-class-description"><p translation-result="on"><code>TemplatePortal</code> 的指令版本。由于该指令<em>是</em>一个 TemplatePortal，所以该指令实例本身也可以附着到一个宿主上，从而能够声明式地使用这些传送点。</p><p translation-origin="off">Directive version of a <code>TemplatePortal</code>. Because the directive <em>is</em> a TemplatePortal,
+</h4><div class="docs-api-class-description"><p>Directive version of a <code>TemplatePortal</code>. Because the directive <em>is</em> a TemplatePortal,
 the directive instance itself can be attached to a host, enabling declarative use of portals.</p>
-
+<p><code>TemplatePortal</code> 的指令版本。由于该指令<em>是</em>一个 TemplatePortal，所以该指令实例本身也可以附着到一个宿主上，从而能够声明式地使用这些传送点。</p>
 </div><div class="docs-api-directive-selectors">
   <span class="docs-api-class-selector-label">选择器：</span>
   
     <span class="docs-api-class-selector-name">[cdkPortal]</span>
   
 </div><span class="docs-api-class-export-label">导出为：</span>
-<span class="docs-api-class-export-name">cdkPortal</span><h5 class="docs-api-h5 docs-api-method-header" id="属性">属性</h5>
+<span class="docs-api-class-export-name">cdkPortal</span><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -64,8 +64,8 @@ the directive instance itself can be attached to a host, enabling declarative us
       <code>context: C</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">要传入内嵌式视图中的上下文数据。</p><p translation-origin="off">Contextual data to be passed in to the embedded view.</p>
-
+  <td class="docs-api-property-description"><p>Contextual data to be passed in to the embedded view.</p>
+<p>要传入内嵌式视图中的上下文数据。</p>
 </td>
 </tr>
 
@@ -91,8 +91,8 @@ the directive instance itself can be attached to a host, enabling declarative us
       <code>isAttached: boolean</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">此传送点是否已附着到宿主上。</p><p translation-origin="off">Whether this portal is attached to a host.</p>
-
+  <td class="docs-api-property-description"><p>Whether this portal is attached to a host.</p>
+<p>此传送点是否已附着到宿主上。</p>
 </td>
 </tr>
 
@@ -117,8 +117,8 @@ the directive instance itself can be attached to a host, enabling declarative us
       <code>templateRef: TemplateRef&lt;C&gt;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">嵌入式模板，用于在宿主中实例化一个嵌入式视图。</p><p translation-origin="off">The embedded template that will be used to instantiate an embedded View in the host.</p>
-
+  <td class="docs-api-property-description"><p>The embedded template that will be used to instantiate an embedded View in the host.</p>
+<p>嵌入式模板，用于在宿主中实例化一个嵌入式视图。</p>
 </td>
 </tr>
 
@@ -131,17 +131,17 @@ the directive instance itself can be attached to a host, enabling declarative us
       <code>viewContainerRef: ViewContainerRef</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">要容纳模板生成物的 ViewContainer 的引用。</p><p translation-origin="off">Reference to the ViewContainer into which the template will be stamped out.</p>
-
+  <td class="docs-api-property-description"><p>Reference to the ViewContainer into which the template will be stamped out.</p>
+<p>要容纳模板生成物的 ViewContainer 的引用。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -151,22 +151,24 @@ the directive instance itself can be attached to a host, enabling declarative us
       <th colspan="2" class="docs-api-method-name-cell">attach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把此传送点添加到所提供的 <code>PortalOutlet</code> 中。当提供了上下文时，它会改写 <code>TemplatePortal</code> 实例 <code>context</code> 属性。</p><p translation-origin="off">Attach the portal to the provided <code>PortalOutlet</code>.
+      <p>Attach the portal to the provided <code>PortalOutlet</code>.
 When a context is provided it will override the <code>context</code> property of the <code>TemplatePortal</code>
 instance.</p>
-
+<p>把此传送点添加到所提供的 <code>PortalOutlet</code> 中。当提供了上下文时，它会改写 <code>TemplatePortal</code> 实例 <code>context</code> 属性。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -191,13 +193,15 @@ instance.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
@@ -206,7 +210,7 @@ instance.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -230,21 +234,23 @@ instance.</p>
       <th colspan="2" class="docs-api-method-name-cell">setAttachedHost
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p><p translation-origin="off">Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
+      <p>Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
 the PortalOutlet when it is performing an <code>attach()</code> or <code>detach()</code>.</p>
-
+<p>在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -256,7 +262,7 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       </div>
     </td>
   </tr>
-  </tbody></table>
+  </table>
 
 
   
@@ -287,9 +293,9 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
 </div><span class="docs-api-class-export-label">导出为：</span>
 <span class="docs-api-class-export-name">cdkPortal</span><div class="docs-api-class-deprecated-marker" title="将会在 v9.0.0 或更高版本中删除">
   已弃用
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-1">属性</h5>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -301,8 +307,8 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>context: C</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">要传入内嵌式视图中的上下文数据。</p><p translation-origin="off">Contextual data to be passed in to the embedded view.</p>
-
+  <td class="docs-api-property-description"><p>Contextual data to be passed in to the embedded view.</p>
+<p>要传入内嵌式视图中的上下文数据。</p>
 </td>
 </tr>
 
@@ -328,8 +334,8 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>isAttached: boolean</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">此传送点是否已附着到宿主上。</p><p translation-origin="off">Whether this portal is attached to a host.</p>
-
+  <td class="docs-api-property-description"><p>Whether this portal is attached to a host.</p>
+<p>此传送点是否已附着到宿主上。</p>
 </td>
 </tr>
 
@@ -354,8 +360,8 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>templateRef: TemplateRef&lt;C&gt;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">嵌入式模板，用于在宿主中实例化一个嵌入式视图。</p><p translation-origin="off">The embedded template that will be used to instantiate an embedded View in the host.</p>
-
+  <td class="docs-api-property-description"><p>The embedded template that will be used to instantiate an embedded View in the host.</p>
+<p>嵌入式模板，用于在宿主中实例化一个嵌入式视图。</p>
 </td>
 </tr>
 
@@ -368,17 +374,17 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>viewContainerRef: ViewContainerRef</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">要容纳模板生成物的 ViewContainer 的引用。</p><p translation-origin="off">Reference to the ViewContainer into which the template will be stamped out.</p>
-
+  <td class="docs-api-property-description"><p>Reference to the ViewContainer into which the template will be stamped out.</p>
+<p>要容纳模板生成物的 ViewContainer 的引用。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-1">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -388,22 +394,24 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <th colspan="2" class="docs-api-method-name-cell">attach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把此传送点添加到所提供的 <code>PortalOutlet</code> 中。当提供了上下文时，它会改写 <code>TemplatePortal</code> 实例 <code>context</code> 属性。</p><p translation-origin="off">Attach the portal to the provided <code>PortalOutlet</code>.
+      <p>Attach the portal to the provided <code>PortalOutlet</code>.
 When a context is provided it will override the <code>context</code> property of the <code>TemplatePortal</code>
 instance.</p>
-
+<p>把此传送点添加到所提供的 <code>PortalOutlet</code> 中。当提供了上下文时，它会改写 <code>TemplatePortal</code> 实例 <code>context</code> 属性。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -428,13 +436,15 @@ instance.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
@@ -443,7 +453,7 @@ instance.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -467,21 +477,23 @@ instance.</p>
       <th colspan="2" class="docs-api-method-name-cell">setAttachedHost
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p><p translation-origin="off">Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
+      <p>Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
 the PortalOutlet when it is performing an <code>attach()</code> or <code>detach()</code>.</p>
-
+<p>在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -493,7 +505,7 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       </div>
     </td>
   </tr>
-  </tbody></table>
+  </table>
 
 
   
@@ -514,21 +526,21 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
     </a>
   </span>
   
-</h4><div class="docs-api-class-description"><p translation-result="on">PortalOutlet 的指令版本。由于该指令<em>是</em>一个 PortalOutlet，因此可以直接把传送点附着到这里，从而实现声明式使用。</p><p translation-origin="off">Directive version of a PortalOutlet. Because the directive <em>is</em> a PortalOutlet, portals can be
+</h4><div class="docs-api-class-description"><p>Directive version of a PortalOutlet. Because the directive <em>is</em> a PortalOutlet, portals can be
 directly attached to it, enabling declarative use.</p>
-
-<p translation-result="on">用法： <code>&lt;ng-template [cdkPortalOutlet]="greeting"&gt;&lt;/ng-template&gt;</code></p><p translation-origin="off">Usage:
-<code>&lt;ng-template [cdkPortalOutlet]="greeting"&gt;&lt;/ng-template&gt;</code></p>
-
+<p>PortalOutlet 的指令版本。由于该指令<em>是</em>一个 PortalOutlet，因此可以直接把传送点附着到这里，从而实现声明式使用。</p>
+<p>Usage:
+<code>&lt;ng-template [cdkPortalOutlet]=&quot;greeting&quot;&gt;&lt;/ng-template&gt;</code></p>
+<p>用法： <code>&lt;ng-template [cdkPortalOutlet]=&quot;greeting&quot;&gt;&lt;/ng-template&gt;</code></p>
 </div><div class="docs-api-directive-selectors">
   <span class="docs-api-class-selector-label">选择器：</span>
   
     <span class="docs-api-class-selector-name">[cdkPortalOutlet]</span>
   
 </div><span class="docs-api-class-export-label">导出为：</span>
-<span class="docs-api-class-export-name">cdkPortalOutlet</span><h5 class="docs-api-h5 docs-api-method-header" id="属性-2">属性</h5>
+<span class="docs-api-class-export-name">cdkPortalOutlet</span><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -541,8 +553,8 @@ directly attached to it, enabling declarative use.</p>
       <code>portal: Portal&lt;any&gt; | null</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">与此传送点出口地标关联的传送点。</p><p translation-origin="off">Portal associated with the Portal outlet.</p>
-
+  <td class="docs-api-property-description"><p>Portal associated with the Portal outlet.</p>
+<p>与此传送点出口地标关联的传送点。</p>
 </td>
 </tr>
 
@@ -556,8 +568,8 @@ directly attached to it, enabling declarative use.</p>
       <code>attached: EventEmitter&lt;CdkPortalOutletAttachedRef&gt;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">当传送点连接到此出口地标时，会发出通知。</p><p translation-origin="off">Emits when a portal is attached to the outlet.</p>
-
+  <td class="docs-api-property-description"><p>Emits when a portal is attached to the outlet.</p>
+<p>当传送点连接到此出口地标时，会发出通知。</p>
 </td>
 </tr>
 
@@ -570,8 +582,8 @@ directly attached to it, enabling declarative use.</p>
       <code>attachedRef: CdkPortalOutletAttachedRef</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">附着了传送点的组件或视图的引用。</p><p translation-origin="off">Component or view reference that is attached to the portal.</p>
-
+  <td class="docs-api-property-description"><p>Component or view reference that is attached to the portal.</p>
+<p>附着了传送点的组件或视图的引用。</p>
 </td>
 </tr>
 
@@ -584,14 +596,14 @@ directly attached to it, enabling declarative use.</p>
         已弃用
       </div><p class="docs-api-property-name">
       <code>attachDomPortal: (portal: DomPortal) =&gt; {
-    if (!this._document &amp;&amp; (typeof ngDevMode === 'undefined' || ngDevMode)) {
-        throw Error('Cannot attach DOM portal without _document constructor parameter');
+    if (!this._document &amp;&amp; (typeof ngDevMode === &#39;undefined&#39; || ngDevMode)) {
+        throw Error(&#39;Cannot attach DOM portal without _document constructor parameter&#39;);
     }
     const element = portal.element;
-    if (!element.parentNode &amp;&amp; (typeof ngDevMode === 'undefined' || ngDevMode)) {
-        throw Error('DOM portal content must be attached to a parent node.');
+    if (!element.parentNode &amp;&amp; (typeof ngDevMode === &#39;undefined&#39; || ngDevMode)) {
+        throw Error(&#39;DOM portal content must be attached to a parent node.&#39;);
     }
-    const anchorNode = this._document.createComment('dom-portal');
+    const anchorNode = this._document.createComment(&#39;dom-portal&#39;);
     portal.setAttachedHost(this);
     element.parentNode!.insertBefore(anchorNode, element);
     this._getRootNode().appendChild(element);
@@ -604,17 +616,17 @@ directly attached to it, enabling declarative use.</p>
 }</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">把所有的传送点内容都移入到指定的 DomPortal 中，以把它附着到这个 PortalHost 上。</p><p translation-origin="off">Attaches the given DomPortal to this PortalHost by moving all of the portal content into it.</p>
-
+  <td class="docs-api-property-description"><p>Attaches the given DomPortal to this PortalHost by moving all of the portal content into it.</p>
+<p>把所有的传送点内容都移入到指定的 DomPortal 中，以把它附着到这个 PortalHost 上。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-2">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -626,12 +638,14 @@ directly attached to it, enabling declarative use.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -643,13 +657,15 @@ directly attached to it, enabling declarative use.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
@@ -658,7 +674,7 @@ directly attached to it, enabling declarative use.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -672,12 +688,14 @@ directly attached to it, enabling declarative use.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -689,13 +707,15 @@ directly attached to it, enabling declarative use.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;T&gt;</code>
     </td>
@@ -704,7 +724,7 @@ directly attached to it, enabling declarative use.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -718,12 +738,14 @@ directly attached to it, enabling declarative use.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -735,13 +757,15 @@ directly attached to it, enabling declarative use.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">any</code>
     </td>
@@ -750,7 +774,7 @@ directly attached to it, enabling declarative use.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -762,20 +786,22 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">attachComponentPortal
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">使用 ComponentFactoryResolver 把指定的 ComponentPortal 贴到这个 PortalOutlet 上。</p><p translation-origin="off">Attach the given ComponentPortal to this PortalOutlet using the ComponentFactoryResolver.</p>
-
+      <p>Attach the given ComponentPortal to this PortalOutlet using the ComponentFactoryResolver.</p>
+<p>使用 ComponentFactoryResolver 把指定的 ComponentPortal 贴到这个 PortalOutlet 上。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -783,30 +809,32 @@ directly attached to it, enabling declarative use.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">要附着到传送点出口地标的传送点。</p><p translation-origin="off">Portal to be attached to the portal outlet.</p>
-
+        <p>Portal to be attached to the portal outlet.</p>
+<p>要附着到传送点出口地标的传送点。</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">引用所创建的组件。</p><p translation-origin="off">Reference to the created component.</p>
-
+        <p>Reference to the created component.</p>
+<p>引用所创建的组件。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -818,20 +846,22 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">attachTemplatePortal
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把这个指定的 TemplatePortal 作为嵌入式视图附着到这个 PortalHost 中。</p><p translation-origin="off">Attach the given TemplatePortal to this PortalHost as an embedded View.</p>
-
+      <p>Attach the given TemplatePortal to this PortalHost as an embedded View.</p>
+<p>把这个指定的 TemplatePortal 作为嵌入式视图附着到这个 PortalHost 中。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -839,30 +869,32 @@ directly attached to it, enabling declarative use.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">要附着的传送点</p><p translation-origin="off">Portal to be attached.</p>
-
+        <p>Portal to be attached.</p>
+<p>要附着的传送点</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">所创建的嵌入式视图的引用。</p><p translation-origin="off">Reference to the created embedded view.</p>
-
+        <p>Reference to the created embedded view.</p>
+<p>所创建的嵌入式视图的引用。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -874,13 +906,13 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">拆除以前附着过的传送点。</p><p translation-origin="off">Detaches a previously attached portal.</p>
-
+      <p>Detaches a previously attached portal.</p>
+<p>拆除以前附着过的传送点。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -892,13 +924,13 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">dispose
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">永久销毁这个 Portal 宿主。</p><p translation-origin="off">Permanently dispose of this portal host.</p>
-
+      <p>Permanently dispose of this portal host.</p>
+<p>永久销毁这个 Portal 宿主。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -910,19 +942,21 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">hasAttached
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该宿主是否有附着的传送点。</p><p translation-origin="off">Whether this host has an attached portal.</p>
-
+      <p>Whether this host has an attached portal.</p>
+<p>该宿主是否有附着的传送点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">boolean</code>
     </td>
@@ -931,7 +965,7 @@ directly attached to it, enabling declarative use.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -962,9 +996,9 @@ directly attached to it, enabling declarative use.</p>
 </div><span class="docs-api-class-export-label">导出为：</span>
 <span class="docs-api-class-export-name">cdkPortalHost</span><div class="docs-api-class-deprecated-marker" title="将会在 v9.0.0 或更高版本中删除">
   已弃用
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-3">属性</h5>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -977,8 +1011,8 @@ directly attached to it, enabling declarative use.</p>
       <code>portal: Portal&lt;any&gt; | null</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">与此传送点出口地标关联的传送点。</p><p translation-origin="off">Portal associated with the Portal outlet.</p>
-
+  <td class="docs-api-property-description"><p>Portal associated with the Portal outlet.</p>
+<p>与此传送点出口地标关联的传送点。</p>
 </td>
 </tr>
 
@@ -992,8 +1026,8 @@ directly attached to it, enabling declarative use.</p>
       <code>attached: EventEmitter&lt;CdkPortalOutletAttachedRef&gt;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">当传送点连接到此出口地标时，会发出通知。</p><p translation-origin="off">Emits when a portal is attached to the outlet.</p>
-
+  <td class="docs-api-property-description"><p>Emits when a portal is attached to the outlet.</p>
+<p>当传送点连接到此出口地标时，会发出通知。</p>
 </td>
 </tr>
 
@@ -1006,8 +1040,8 @@ directly attached to it, enabling declarative use.</p>
       <code>attachedRef: CdkPortalOutletAttachedRef</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">附着了传送点的组件或视图的引用。</p><p translation-origin="off">Component or view reference that is attached to the portal.</p>
-
+  <td class="docs-api-property-description"><p>Component or view reference that is attached to the portal.</p>
+<p>附着了传送点的组件或视图的引用。</p>
 </td>
 </tr>
 
@@ -1020,14 +1054,14 @@ directly attached to it, enabling declarative use.</p>
         已弃用
       </div><p class="docs-api-property-name">
       <code>attachDomPortal: (portal: DomPortal) =&gt; {
-    if (!this._document &amp;&amp; (typeof ngDevMode === 'undefined' || ngDevMode)) {
-        throw Error('Cannot attach DOM portal without _document constructor parameter');
+    if (!this._document &amp;&amp; (typeof ngDevMode === &#39;undefined&#39; || ngDevMode)) {
+        throw Error(&#39;Cannot attach DOM portal without _document constructor parameter&#39;);
     }
     const element = portal.element;
-    if (!element.parentNode &amp;&amp; (typeof ngDevMode === 'undefined' || ngDevMode)) {
-        throw Error('DOM portal content must be attached to a parent node.');
+    if (!element.parentNode &amp;&amp; (typeof ngDevMode === &#39;undefined&#39; || ngDevMode)) {
+        throw Error(&#39;DOM portal content must be attached to a parent node.&#39;);
     }
-    const anchorNode = this._document.createComment('dom-portal');
+    const anchorNode = this._document.createComment(&#39;dom-portal&#39;);
     portal.setAttachedHost(this);
     element.parentNode!.insertBefore(anchorNode, element);
     this._getRootNode().appendChild(element);
@@ -1040,17 +1074,17 @@ directly attached to it, enabling declarative use.</p>
 }</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">把所有的传送点内容都移入到指定的 DomPortal 中，以把它附着到这个 PortalHost 上。</p><p translation-origin="off">Attaches the given DomPortal to this PortalHost by moving all of the portal content into it.</p>
-
+  <td class="docs-api-property-description"><p>Attaches the given DomPortal to this PortalHost by moving all of the portal content into it.</p>
+<p>把所有的传送点内容都移入到指定的 DomPortal 中，以把它附着到这个 PortalHost 上。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-3">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -1062,12 +1096,14 @@ directly attached to it, enabling declarative use.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -1079,13 +1115,15 @@ directly attached to it, enabling declarative use.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
@@ -1094,7 +1132,7 @@ directly attached to it, enabling declarative use.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1108,12 +1146,14 @@ directly attached to it, enabling declarative use.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -1125,13 +1165,15 @@ directly attached to it, enabling declarative use.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;T&gt;</code>
     </td>
@@ -1140,7 +1182,7 @@ directly attached to it, enabling declarative use.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1154,12 +1196,14 @@ directly attached to it, enabling declarative use.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -1171,13 +1215,15 @@ directly attached to it, enabling declarative use.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">any</code>
     </td>
@@ -1186,7 +1232,7 @@ directly attached to it, enabling declarative use.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1198,20 +1244,22 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">attachComponentPortal
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">使用 ComponentFactoryResolver 把指定的 ComponentPortal 贴到这个 PortalOutlet 上。</p><p translation-origin="off">Attach the given ComponentPortal to this PortalOutlet using the ComponentFactoryResolver.</p>
-
+      <p>Attach the given ComponentPortal to this PortalOutlet using the ComponentFactoryResolver.</p>
+<p>使用 ComponentFactoryResolver 把指定的 ComponentPortal 贴到这个 PortalOutlet 上。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -1219,30 +1267,32 @@ directly attached to it, enabling declarative use.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">要附着到传送点出口地标的传送点。</p><p translation-origin="off">Portal to be attached to the portal outlet.</p>
-
+        <p>Portal to be attached to the portal outlet.</p>
+<p>要附着到传送点出口地标的传送点。</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">引用所创建的组件。</p><p translation-origin="off">Reference to the created component.</p>
-
+        <p>Reference to the created component.</p>
+<p>引用所创建的组件。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1254,20 +1304,22 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">attachTemplatePortal
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把这个指定的 TemplatePortal 作为嵌入式视图附着到这个 PortalHost 中。</p><p translation-origin="off">Attach the given TemplatePortal to this PortalHost as an embedded View.</p>
-
+      <p>Attach the given TemplatePortal to this PortalHost as an embedded View.</p>
+<p>把这个指定的 TemplatePortal 作为嵌入式视图附着到这个 PortalHost 中。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -1275,30 +1327,32 @@ directly attached to it, enabling declarative use.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">要附着的传送点</p><p translation-origin="off">Portal to be attached.</p>
-
+        <p>Portal to be attached.</p>
+<p>要附着的传送点</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">所创建的嵌入式视图的引用。</p><p translation-origin="off">Reference to the created embedded view.</p>
-
+        <p>Reference to the created embedded view.</p>
+<p>所创建的嵌入式视图的引用。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1310,13 +1364,13 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">拆除以前附着过的传送点。</p><p translation-origin="off">Detaches a previously attached portal.</p>
-
+      <p>Detaches a previously attached portal.</p>
+<p>拆除以前附着过的传送点。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1328,13 +1382,13 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">dispose
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">永久销毁这个 Portal 宿主。</p><p translation-origin="off">Permanently dispose of this portal host.</p>
-
+      <p>Permanently dispose of this portal host.</p>
+<p>永久销毁这个 Portal 宿主。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1346,19 +1400,21 @@ directly attached to it, enabling declarative use.</p>
       <th colspan="2" class="docs-api-method-name-cell">hasAttached
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该宿主是否有附着的传送点。</p><p translation-origin="off">Whether this host has an attached portal.</p>
-
+      <p>Whether this host has an attached portal.</p>
+<p>该宿主是否有附着的传送点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">boolean</code>
     </td>
@@ -1367,7 +1423,7 @@ directly attached to it, enabling declarative use.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1385,12 +1441,12 @@ directly attached to it, enabling declarative use.</p>
   <span header-link="Portal"></span>
   <code>Portal</code>
   
-</h4><div class="docs-api-class-description"><p translation-result="on">你希望在其它地方渲染的 <code>Portal</code>。它可以附着到 <code>PortalOutlet</code> 或从那里拆除。</p><p translation-origin="off">A <code>Portal</code> is something that you want to render somewhere else.
+</h4><div class="docs-api-class-description"><p>A <code>Portal</code> is something that you want to render somewhere else.
 It can be attach to / detached from a <code>PortalOutlet</code>.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-4">属性</h5>
+<p>你希望在其它地方渲染的 <code>Portal</code>。它可以附着到 <code>PortalOutlet</code> 或从那里拆除。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -1402,17 +1458,17 @@ It can be attach to / detached from a <code>PortalOutlet</code>.</p>
       <code>isAttached: boolean</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">此传送点是否已附着到宿主上。</p><p translation-origin="off">Whether this portal is attached to a host.</p>
-
+  <td class="docs-api-property-description"><p>Whether this portal is attached to a host.</p>
+<p>此传送点是否已附着到宿主上。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-4">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -1422,20 +1478,22 @@ It can be attach to / detached from a <code>PortalOutlet</code>.</p>
       <th colspan="2" class="docs-api-method-name-cell">attach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把这个传送点附着到宿主上。</p><p translation-origin="off">Attach this portal to a host.</p>
-
+      <p>Attach this portal to a host.</p>
+<p>把这个传送点附着到宿主上。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -1447,13 +1505,15 @@ It can be attach to / detached from a <code>PortalOutlet</code>.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">T</code>
     </td>
@@ -1462,7 +1522,7 @@ It can be attach to / detached from a <code>PortalOutlet</code>.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1474,13 +1534,13 @@ It can be attach to / detached from a <code>PortalOutlet</code>.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">从宿主那里删除这个传送点</p><p translation-origin="off">Detach this portal from its host</p>
-
+      <p>Detach this portal from its host</p>
+<p>从宿主那里删除这个传送点</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1492,21 +1552,23 @@ It can be attach to / detached from a <code>PortalOutlet</code>.</p>
       <th colspan="2" class="docs-api-method-name-cell">setAttachedHost
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p><p translation-origin="off">Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
+      <p>Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
 the PortalOutlet when it is performing an <code>attach()</code> or <code>detach()</code>.</p>
-
+<p>在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -1518,7 +1580,7 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       </div>
     </td>
   </tr>
-  </tbody></table>
+  </table>
 
 
   
@@ -1539,11 +1601,11 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
     </a>
   </span>
   
-</h4><div class="docs-api-class-description"><p translation-result="on"><code>ComponentPortal</code> 是一个传送点，它会把某些组件实例化并作为自己的附件。</p><p translation-origin="off">A <code>ComponentPortal</code> is a portal that instantiates some Component upon attachment.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-5">属性</h5>
+</h4><div class="docs-api-class-description"><p>A <code>ComponentPortal</code> is a portal that instantiates some Component upon attachment.</p>
+<p><code>ComponentPortal</code> 是一个传送点，它会把某些组件实例化并作为自己的附件。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -1555,8 +1617,8 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>component: ComponentType&lt;T&gt;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">要作为附件实例化的组件类型。</p><p translation-origin="off">The type of the component that will be instantiated for attachment.</p>
-
+  <td class="docs-api-property-description"><p>The type of the component that will be instantiated for attachment.</p>
+<p>要作为附件实例化的组件类型。</p>
 </td>
 </tr>
 
@@ -1569,9 +1631,9 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>componentFactoryResolver: ComponentFactoryResolver | null</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">在解析相关组件时要用到的 <code>ComponentFactoryResolver</code> 替代品。默认使用来自传送点所附着的出口地标的解析器。</p><p translation-origin="off">Alternate <code>ComponentFactoryResolver</code> to use when resolving the associated component.
+  <td class="docs-api-property-description"><p>Alternate <code>ComponentFactoryResolver</code> to use when resolving the associated component.
 Defaults to using the resolver from the outlet that the portal is attached to.</p>
-
+<p>在解析相关组件时要用到的 <code>ComponentFactoryResolver</code> 替代品。默认使用来自传送点所附着的出口地标的解析器。</p>
 </td>
 </tr>
 
@@ -1584,8 +1646,8 @@ Defaults to using the resolver from the outlet that the portal is attached to.</
       <code>injector: Injector | null</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">供组件实例化时使用的注入器。</p><p translation-origin="off">Injector used for the instantiation of the component.</p>
-
+  <td class="docs-api-property-description"><p>Injector used for the instantiation of the component.</p>
+<p>供组件实例化时使用的注入器。</p>
 </td>
 </tr>
 
@@ -1598,8 +1660,8 @@ Defaults to using the resolver from the outlet that the portal is attached to.</
       <code>isAttached: boolean</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">此传送点是否已附着到宿主上。</p><p translation-origin="off">Whether this portal is attached to a host.</p>
-
+  <td class="docs-api-property-description"><p>Whether this portal is attached to a host.</p>
+<p>此传送点是否已附着到宿主上。</p>
 </td>
 </tr>
 
@@ -1612,8 +1674,8 @@ Defaults to using the resolver from the outlet that the portal is attached to.</
       <code>projectableNodes: Node[][] | null</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">要通过所附着组件的 <code>&lt;ng-content&gt;</code> 投影进去的 DOM 节点列表。</p><p translation-origin="off">List of DOM nodes that should be projected through <code>&lt;ng-content&gt;</code> of the attached component.</p>
-
+  <td class="docs-api-property-description"><p>List of DOM nodes that should be projected through <code>&lt;ng-content&gt;</code> of the attached component.</p>
+<p>要通过所附着组件的 <code>&lt;ng-content&gt;</code> 投影进去的 DOM 节点列表。</p>
 </td>
 </tr>
 
@@ -1626,19 +1688,19 @@ Defaults to using the resolver from the outlet that the portal is attached to.</
       <code>viewContainerRef: ViewContainerRef | null</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">[可选] 附着组件应该放在 Angular 的<em>逻辑</em>组件树中。这与组件<em>渲染的</em>位置不同，后者由 PortalOutlet 决定。当宿主在 Angular 应用的上下文之外时，这个原点是必需的。</p><p translation-origin="off">Where the attached component should live in Angular's <em>logical</em> component tree.
+  <td class="docs-api-property-description"><p>Where the attached component should live in Angular&#39;s <em>logical</em> component tree.
 This is different from where the component <em>renders</em>, which is determined by the PortalOutlet.
 The origin is necessary when the host is outside of the Angular application context.</p>
-
+<p>[可选] 附着组件应该放在 Angular 的<em>逻辑</em>组件树中。这与组件<em>渲染的</em>位置不同，后者由 PortalOutlet 决定。当宿主在 Angular 应用的上下文之外时，这个原点是必需的。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-5">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -1648,20 +1710,22 @@ The origin is necessary when the host is outside of the Angular application cont
       <th colspan="2" class="docs-api-method-name-cell">attach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把这个传送点附着到宿主上。</p><p translation-origin="off">Attach this portal to a host.</p>
-
+      <p>Attach this portal to a host.</p>
+<p>把这个传送点附着到宿主上。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -1673,13 +1737,15 @@ The origin is necessary when the host is outside of the Angular application cont
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">T</code>
     </td>
@@ -1688,7 +1754,7 @@ The origin is necessary when the host is outside of the Angular application cont
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1700,13 +1766,13 @@ The origin is necessary when the host is outside of the Angular application cont
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">从宿主那里删除这个传送点</p><p translation-origin="off">Detach this portal from its host</p>
-
+      <p>Detach this portal from its host</p>
+<p>从宿主那里删除这个传送点</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1718,21 +1784,23 @@ The origin is necessary when the host is outside of the Angular application cont
       <th colspan="2" class="docs-api-method-name-cell">setAttachedHost
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p><p translation-origin="off">Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
+      <p>Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
 the PortalOutlet when it is performing an <code>attach()</code> or <code>detach()</code>.</p>
-
+<p>在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -1744,7 +1812,7 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       </div>
     </td>
   </tr>
-  </tbody></table>
+  </table>
 
 
   
@@ -1765,11 +1833,11 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
     </a>
   </span>
   
-</h4><div class="docs-api-class-description"><p translation-result="on"><code>TemplatePortal</code> 是一个代表嵌入式模板（TemplateRef）的传送点。</p><p translation-origin="off">A <code>TemplatePortal</code> is a portal that represents some embedded template (TemplateRef).</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-6">属性</h5>
+</h4><div class="docs-api-class-description"><p>A <code>TemplatePortal</code> is a portal that represents some embedded template (TemplateRef).</p>
+<p><code>TemplatePortal</code> 是一个代表嵌入式模板（TemplateRef）的传送点。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -1781,8 +1849,8 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>context: C</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">要传入内嵌式视图中的上下文数据。</p><p translation-origin="off">Contextual data to be passed in to the embedded view.</p>
-
+  <td class="docs-api-property-description"><p>Contextual data to be passed in to the embedded view.</p>
+<p>要传入内嵌式视图中的上下文数据。</p>
 </td>
 </tr>
 
@@ -1808,8 +1876,8 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>isAttached: boolean</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">此传送点是否已附着到宿主上。</p><p translation-origin="off">Whether this portal is attached to a host.</p>
-
+  <td class="docs-api-property-description"><p>Whether this portal is attached to a host.</p>
+<p>此传送点是否已附着到宿主上。</p>
 </td>
 </tr>
 
@@ -1834,8 +1902,8 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>templateRef: TemplateRef&lt;C&gt;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">嵌入式模板，用于在宿主中实例化一个嵌入式视图。</p><p translation-origin="off">The embedded template that will be used to instantiate an embedded View in the host.</p>
-
+  <td class="docs-api-property-description"><p>The embedded template that will be used to instantiate an embedded View in the host.</p>
+<p>嵌入式模板，用于在宿主中实例化一个嵌入式视图。</p>
 </td>
 </tr>
 
@@ -1848,17 +1916,17 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <code>viewContainerRef: ViewContainerRef</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">要容纳模板生成物的 ViewContainer 的引用。</p><p translation-origin="off">Reference to the ViewContainer into which the template will be stamped out.</p>
-
+  <td class="docs-api-property-description"><p>Reference to the ViewContainer into which the template will be stamped out.</p>
+<p>要容纳模板生成物的 ViewContainer 的引用。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-6">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -1868,22 +1936,24 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       <th colspan="2" class="docs-api-method-name-cell">attach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把此传送点添加到所提供的 <code>PortalOutlet</code> 中。当提供了上下文时，它会改写 <code>TemplatePortal</code> 实例 <code>context</code> 属性。</p><p translation-origin="off">Attach the portal to the provided <code>PortalOutlet</code>.
+      <p>Attach the portal to the provided <code>PortalOutlet</code>.
 When a context is provided it will override the <code>context</code> property of the <code>TemplatePortal</code>
 instance.</p>
-
+<p>把此传送点添加到所提供的 <code>PortalOutlet</code> 中。当提供了上下文时，它会改写 <code>TemplatePortal</code> 实例 <code>context</code> 属性。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -1908,13 +1978,15 @@ instance.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
@@ -1923,7 +1995,7 @@ instance.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1947,21 +2019,23 @@ instance.</p>
       <th colspan="2" class="docs-api-method-name-cell">setAttachedHost
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p><p translation-origin="off">Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
+      <p>Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
 the PortalOutlet when it is performing an <code>attach()</code> or <code>detach()</code>.</p>
-
+<p>在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -1973,7 +2047,7 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       </div>
     </td>
   </tr>
-  </tbody></table>
+  </table>
 
 
   
@@ -1994,13 +2068,13 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
     </a>
   </span>
   
-</h4><div class="docs-api-class-description"><p translation-result="on"><code>DomPortal</code> 是一个传送点，它的 DOM 元素会从 DOM 中的当前位置获取，并在附着到传送点时移入其中。在拆除时，内容将恢复到其原来的位置。</p><p translation-origin="off">A <code>DomPortal</code> is a portal whose DOM element will be taken from its current position
+</h4><div class="docs-api-class-description"><p>A <code>DomPortal</code> is a portal whose DOM element will be taken from its current position
 in the DOM and moved into a portal outlet, when it is attached. On detach, the content
 will be restored to its original position.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-7">属性</h5>
+<p><code>DomPortal</code> 是一个传送点，它的 DOM 元素会从 DOM 中的当前位置获取，并在附着到传送点时移入其中。在拆除时，内容将恢复到其原来的位置。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -2012,8 +2086,8 @@ will be restored to its original position.</p>
       <code>element: T</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">传送点内容的宿主 DOM 节点。</p><p translation-origin="off">DOM node hosting the portal's content.</p>
-
+  <td class="docs-api-property-description"><p>DOM node hosting the portal&#39;s content.</p>
+<p>传送点内容的宿主 DOM 节点。</p>
 </td>
 </tr>
 
@@ -2026,17 +2100,17 @@ will be restored to its original position.</p>
       <code>isAttached: boolean</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">此传送点是否已附着到宿主上。</p><p translation-origin="off">Whether this portal is attached to a host.</p>
-
+  <td class="docs-api-property-description"><p>Whether this portal is attached to a host.</p>
+<p>此传送点是否已附着到宿主上。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-7">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -2046,20 +2120,22 @@ will be restored to its original position.</p>
       <th colspan="2" class="docs-api-method-name-cell">attach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把这个传送点附着到宿主上。</p><p translation-origin="off">Attach this portal to a host.</p>
-
+      <p>Attach this portal to a host.</p>
+<p>把这个传送点附着到宿主上。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -2071,13 +2147,15 @@ will be restored to its original position.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">T</code>
     </td>
@@ -2086,7 +2164,7 @@ will be restored to its original position.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2098,13 +2176,13 @@ will be restored to its original position.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">从宿主那里删除这个传送点</p><p translation-origin="off">Detach this portal from its host</p>
-
+      <p>Detach this portal from its host</p>
+<p>从宿主那里删除这个传送点</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2116,21 +2194,23 @@ will be restored to its original position.</p>
       <th colspan="2" class="docs-api-method-name-cell">setAttachedHost
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p><p translation-origin="off">Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
+      <p>Sets the PortalOutlet reference without performing <code>attach()</code>. This is used directly by
 the PortalOutlet when it is performing an <code>attach()</code> or <code>detach()</code>.</p>
-
+<p>在不执行 <code>attach()</code> 的情况下设置 PortalOutlet 的引用。当 PortalOutlet 要执行 <code>attach()</code> 或 <code>detach()</code> 时会直接使用它。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         host</p>
@@ -2142,7 +2222,7 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
       </div>
     </td>
   </tr>
-  </tbody></table>
+  </table>
 
 
   
@@ -2156,12 +2236,12 @@ the PortalOutlet when it is performing an <code>attach()</code> or <code>detach(
   <span header-link="BasePortalOutlet"></span>
   <code>BasePortalOutlet</code>
   
-</h4><div class="docs-api-class-description"><p translation-result="on">PortalOutlet 的部分实现，用于处理附着的 ComponentPortal 和 TemplatePortal。</p><p translation-origin="off">Partial implementation of PortalOutlet that handles attaching
+</h4><div class="docs-api-class-description"><p>Partial implementation of PortalOutlet that handles attaching
 ComponentPortal and TemplatePortal.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-8">属性</h5>
+<p>PortalOutlet 的部分实现，用于处理附着的 ComponentPortal 和 TemplatePortal。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -2178,10 +2258,10 @@ ComponentPortal and TemplatePortal.</p>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-8">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -2193,12 +2273,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2210,13 +2292,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
@@ -2225,7 +2309,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2239,12 +2323,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2256,13 +2342,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;T&gt;</code>
     </td>
@@ -2271,7 +2359,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2285,12 +2373,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2302,13 +2392,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">any</code>
     </td>
@@ -2317,7 +2409,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2331,12 +2423,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2348,13 +2442,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
@@ -2363,7 +2459,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2377,12 +2473,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2394,13 +2492,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
@@ -2409,7 +2509,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2421,13 +2521,13 @@ ComponentPortal and TemplatePortal.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">拆除以前附着过的传送点。</p><p translation-origin="off">Detaches a previously attached portal.</p>
-
+      <p>Detaches a previously attached portal.</p>
+<p>拆除以前附着过的传送点。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2439,13 +2539,13 @@ ComponentPortal and TemplatePortal.</p>
       <th colspan="2" class="docs-api-method-name-cell">dispose
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">永久销毁这个 Portal 宿主。</p><p translation-origin="off">Permanently dispose of this portal host.</p>
-
+      <p>Permanently dispose of this portal host.</p>
+<p>永久销毁这个 Portal 宿主。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2457,19 +2557,21 @@ ComponentPortal and TemplatePortal.</p>
       <th colspan="2" class="docs-api-method-name-cell">hasAttached
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该宿主是否有附着的传送点。</p><p translation-origin="off">Whether this host has an attached portal.</p>
-
+      <p>Whether this host has an attached portal.</p>
+<p>该宿主是否有附着的传送点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">boolean</code>
     </td>
@@ -2478,7 +2580,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2501,9 +2603,9 @@ ComponentPortal and TemplatePortal.</p>
   
 </h4><div class="docs-api-class-deprecated-marker" title="将会在 v9.0.0 或更高版本中删除">
   已弃用
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-9">属性</h5>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -2520,10 +2622,10 @@ ComponentPortal and TemplatePortal.</p>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-9">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -2535,12 +2637,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2552,13 +2656,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
@@ -2567,7 +2673,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2581,12 +2687,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2598,13 +2706,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;T&gt;</code>
     </td>
@@ -2613,7 +2723,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2627,12 +2737,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2644,13 +2756,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">any</code>
     </td>
@@ -2659,7 +2773,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2673,12 +2787,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2690,13 +2806,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
@@ -2705,7 +2823,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2719,12 +2837,14 @@ ComponentPortal and TemplatePortal.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2736,13 +2856,15 @@ ComponentPortal and TemplatePortal.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
@@ -2751,7 +2873,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2763,13 +2885,13 @@ ComponentPortal and TemplatePortal.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">拆除以前附着过的传送点。</p><p translation-origin="off">Detaches a previously attached portal.</p>
-
+      <p>Detaches a previously attached portal.</p>
+<p>拆除以前附着过的传送点。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2781,13 +2903,13 @@ ComponentPortal and TemplatePortal.</p>
       <th colspan="2" class="docs-api-method-name-cell">dispose
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">永久销毁这个 Portal 宿主。</p><p translation-origin="off">Permanently dispose of this portal host.</p>
-
+      <p>Permanently dispose of this portal host.</p>
+<p>永久销毁这个 Portal 宿主。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2799,19 +2921,21 @@ ComponentPortal and TemplatePortal.</p>
       <th colspan="2" class="docs-api-method-name-cell">hasAttached
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该宿主是否有附着的传送点。</p><p translation-origin="off">Whether this host has an attached portal.</p>
-
+      <p>Whether this host has an attached portal.</p>
+<p>该宿主是否有附着的传送点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">boolean</code>
     </td>
@@ -2820,7 +2944,7 @@ ComponentPortal and TemplatePortal.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2841,12 +2965,12 @@ ComponentPortal and TemplatePortal.</p>
     </a>
   </span>
   
-</h4><div class="docs-api-class-description"><p translation-result="on">PortalOutlet，用于把传送点附着到 Angular 应用上下文之外的任意一个 DOM 元素上。</p><p translation-origin="off">A PortalOutlet for attaching portals to an arbitrary DOM element outside of the Angular
+</h4><div class="docs-api-class-description"><p>A PortalOutlet for attaching portals to an arbitrary DOM element outside of the Angular
 application context.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-10">属性</h5>
+<p>PortalOutlet，用于把传送点附着到 Angular 应用上下文之外的任意一个 DOM 元素上。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -2858,8 +2982,8 @@ application context.</p>
       <code>outletElement: Element</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">此内容要投影进的元素。</p><p translation-origin="off">Element into which the content is projected.</p>
-
+  <td class="docs-api-property-description"><p>Element into which the content is projected.</p>
+<p>此内容要投影进的元素。</p>
 </td>
 </tr>
 
@@ -2872,14 +2996,14 @@ application context.</p>
         已弃用
       </div><p class="docs-api-property-name">
       <code>attachDomPortal: (portal: DomPortal) =&gt; {
-    if (!this._document &amp;&amp; (typeof ngDevMode === 'undefined' || ngDevMode)) {
-        throw Error('Cannot attach DOM portal without _document constructor parameter');
+    if (!this._document &amp;&amp; (typeof ngDevMode === &#39;undefined&#39; || ngDevMode)) {
+        throw Error(&#39;Cannot attach DOM portal without _document constructor parameter&#39;);
     }
     const element = portal.element;
-    if (!element.parentNode &amp;&amp; (typeof ngDevMode === 'undefined' || ngDevMode)) {
-        throw Error('DOM portal content must be attached to a parent node.');
+    if (!element.parentNode &amp;&amp; (typeof ngDevMode === &#39;undefined&#39; || ngDevMode)) {
+        throw Error(&#39;DOM portal content must be attached to a parent node.&#39;);
     }
-    const anchorNode = this._document.createComment('dom-portal');
+    const anchorNode = this._document.createComment(&#39;dom-portal&#39;);
     element.parentNode!.insertBefore(anchorNode, element);
     this.outletElement.appendChild(element);
     this._attachedPortal = portal;
@@ -2891,17 +3015,17 @@ application context.</p>
 }</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">通过把其内容传入指定的地标来附着到 DOM 传送点。</p><p translation-origin="off">Attaches a DOM portal by transferring its content into the outlet.</p>
-
+  <td class="docs-api-property-description"><p>Attaches a DOM portal by transferring its content into the outlet.</p>
+<p>通过把其内容传入指定的地标来附着到 DOM 传送点。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-10">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -2913,12 +3037,14 @@ application context.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2930,13 +3056,15 @@ application context.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
@@ -2945,7 +3073,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -2959,12 +3087,14 @@ application context.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -2976,13 +3106,15 @@ application context.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;T&gt;</code>
     </td>
@@ -2991,7 +3123,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3005,12 +3137,14 @@ application context.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3022,13 +3156,15 @@ application context.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">any</code>
     </td>
@@ -3037,7 +3173,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3049,20 +3185,22 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">attachComponentPortal
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">使用 ComponentFactoryResolver 把指定的 ComponentPortal 添加到 DOM 元素中。</p><p translation-origin="off">Attach the given ComponentPortal to DOM element using the ComponentFactoryResolver.</p>
-
+      <p>Attach the given ComponentPortal to DOM element using the ComponentFactoryResolver.</p>
+<p>使用 ComponentFactoryResolver 把指定的 ComponentPortal 添加到 DOM 元素中。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3070,30 +3208,32 @@ application context.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">要附着到的传送点</p><p translation-origin="off">Portal to be attached</p>
-
+        <p>Portal to be attached</p>
+<p>要附着到的传送点</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">所创建的组件的引用。</p><p translation-origin="off">Reference to the created component.</p>
-
+        <p>Reference to the created component.</p>
+<p>所创建的组件的引用。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3105,20 +3245,22 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">attachTemplatePortal
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把一个模板传送点作为嵌入式视图附着到 DOM 上。</p><p translation-origin="off">Attaches a template portal to the DOM as an embedded view.</p>
-
+      <p>Attaches a template portal to the DOM as an embedded view.</p>
+<p>把一个模板传送点作为嵌入式视图附着到 DOM 上。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3126,30 +3268,32 @@ application context.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">要附着到的传送点。</p><p translation-origin="off">Portal to be attached.</p>
-
+        <p>Portal to be attached.</p>
+<p>要附着到的传送点。</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">所创建的嵌入式视图的引用。</p><p translation-origin="off">Reference to the created embedded view.</p>
-
+        <p>Reference to the created embedded view.</p>
+<p>所创建的嵌入式视图的引用。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3161,13 +3305,13 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">拆除以前附着过的传送点。</p><p translation-origin="off">Detaches a previously attached portal.</p>
-
+      <p>Detaches a previously attached portal.</p>
+<p>拆除以前附着过的传送点。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3179,13 +3323,13 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">dispose
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">从 DOM 中清除一个传送点。</p><p translation-origin="off">Clears out a portal from the DOM.</p>
-
+      <p>Clears out a portal from the DOM.</p>
+<p>从 DOM 中清除一个传送点。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3197,19 +3341,21 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">hasAttached
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该宿主是否有附着的传送点。</p><p translation-origin="off">Whether this host has an attached portal.</p>
-
+      <p>Whether this host has an attached portal.</p>
+<p>该宿主是否有附着的传送点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">boolean</code>
     </td>
@@ -3218,7 +3364,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3241,9 +3387,9 @@ application context.</p>
   
 </h4><div class="docs-api-class-deprecated-marker" title="将会在 v9.0.0 或更高版本中删除">
   已弃用
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-11">属性</h5>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -3255,8 +3401,8 @@ application context.</p>
       <code>outletElement: Element</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">此内容要投影进的元素。</p><p translation-origin="off">Element into which the content is projected.</p>
-
+  <td class="docs-api-property-description"><p>Element into which the content is projected.</p>
+<p>此内容要投影进的元素。</p>
 </td>
 </tr>
 
@@ -3269,14 +3415,14 @@ application context.</p>
         已弃用
       </div><p class="docs-api-property-name">
       <code>attachDomPortal: (portal: DomPortal) =&gt; {
-    if (!this._document &amp;&amp; (typeof ngDevMode === 'undefined' || ngDevMode)) {
-        throw Error('Cannot attach DOM portal without _document constructor parameter');
+    if (!this._document &amp;&amp; (typeof ngDevMode === &#39;undefined&#39; || ngDevMode)) {
+        throw Error(&#39;Cannot attach DOM portal without _document constructor parameter&#39;);
     }
     const element = portal.element;
-    if (!element.parentNode &amp;&amp; (typeof ngDevMode === 'undefined' || ngDevMode)) {
-        throw Error('DOM portal content must be attached to a parent node.');
+    if (!element.parentNode &amp;&amp; (typeof ngDevMode === &#39;undefined&#39; || ngDevMode)) {
+        throw Error(&#39;DOM portal content must be attached to a parent node.&#39;);
     }
-    const anchorNode = this._document.createComment('dom-portal');
+    const anchorNode = this._document.createComment(&#39;dom-portal&#39;);
     element.parentNode!.insertBefore(anchorNode, element);
     this.outletElement.appendChild(element);
     this._attachedPortal = portal;
@@ -3288,17 +3434,17 @@ application context.</p>
 }</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">通过把其内容传入指定的地标来附着到 DOM 传送点。</p><p translation-origin="off">Attaches a DOM portal by transferring its content into the outlet.</p>
-
+  <td class="docs-api-property-description"><p>Attaches a DOM portal by transferring its content into the outlet.</p>
+<p>通过把其内容传入指定的地标来附着到 DOM 传送点。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-11">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -3310,12 +3456,14 @@ application context.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3327,13 +3475,15 @@ application context.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
@@ -3342,7 +3492,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3356,12 +3506,14 @@ application context.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3373,13 +3525,15 @@ application context.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;T&gt;</code>
     </td>
@@ -3388,7 +3542,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3402,12 +3556,14 @@ application context.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3419,13 +3575,15 @@ application context.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">any</code>
     </td>
@@ -3434,7 +3592,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3446,20 +3604,22 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">attachComponentPortal
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">使用 ComponentFactoryResolver 把指定的 ComponentPortal 添加到 DOM 元素中。</p><p translation-origin="off">Attach the given ComponentPortal to DOM element using the ComponentFactoryResolver.</p>
-
+      <p>Attach the given ComponentPortal to DOM element using the ComponentFactoryResolver.</p>
+<p>使用 ComponentFactoryResolver 把指定的 ComponentPortal 添加到 DOM 元素中。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3467,30 +3627,32 @@ application context.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">要附着到的传送点</p><p translation-origin="off">Portal to be attached</p>
-
+        <p>Portal to be attached</p>
+<p>要附着到的传送点</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">ComponentRef&lt;T&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">所创建的组件的引用。</p><p translation-origin="off">Reference to the created component.</p>
-
+        <p>Reference to the created component.</p>
+<p>所创建的组件的引用。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3502,20 +3664,22 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">attachTemplatePortal
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把一个模板传送点作为嵌入式视图附着到 DOM 上。</p><p translation-origin="off">Attaches a template portal to the DOM as an embedded view.</p>
-
+      <p>Attaches a template portal to the DOM as an embedded view.</p>
+<p>把一个模板传送点作为嵌入式视图附着到 DOM 上。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3523,30 +3687,32 @@ application context.</p>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">要附着到的传送点。</p><p translation-origin="off">Portal to be attached.</p>
-
+        <p>Portal to be attached.</p>
+<p>要附着到的传送点。</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">EmbeddedViewRef&lt;C&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">所创建的嵌入式视图的引用。</p><p translation-origin="off">Reference to the created embedded view.</p>
-
+        <p>Reference to the created embedded view.</p>
+<p>所创建的嵌入式视图的引用。</p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3558,13 +3724,13 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">拆除以前附着过的传送点。</p><p translation-origin="off">Detaches a previously attached portal.</p>
-
+      <p>Detaches a previously attached portal.</p>
+<p>拆除以前附着过的传送点。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3576,13 +3742,13 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">dispose
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">从 DOM 中清除一个传送点。</p><p translation-origin="off">Clears out a portal from the DOM.</p>
-
+      <p>Clears out a portal from the DOM.</p>
+<p>从 DOM 中清除一个传送点。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3594,19 +3760,21 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">hasAttached
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">该宿主是否有附着的传送点。</p><p translation-origin="off">Whether this host has an attached portal.</p>
-
+      <p>Whether this host has an attached portal.</p>
+<p>该宿主是否有附着的传送点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">boolean</code>
     </td>
@@ -3615,7 +3783,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3632,12 +3800,12 @@ application context.</p>
 <h4 id="ComponentType" class="docs-header-link docs-api-h4 docs-api-interface-name">
   <span header-link="ComponentType"></span>
   <code>ComponentType</code>
-</h4><div class="docs-api-interface-description"><p translation-result="on">可以用来对类进行泛型化的接口。</p><p translation-origin="off">Interface that can be used to generically type a class.</p>
-
+</h4><div class="docs-api-interface-description"><p>Interface that can be used to generically type a class.</p>
+<p>可以用来对类进行泛型化的接口。</p>
 </div>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-12">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -3649,12 +3817,14 @@ application context.</p>
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         ...args</p>
@@ -3666,13 +3836,15 @@ application context.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">T</code>
     </td>
@@ -3681,7 +3853,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3694,12 +3866,12 @@ application context.</p>
 <h4 id="PortalOutlet" class="docs-header-link docs-api-h4 docs-api-interface-name">
   <span header-link="PortalOutlet"></span>
   <code>PortalOutlet</code>
-</h4><div class="docs-api-interface-description"><p translation-result="on"><code>PortalOutlet</code> 是一个可以容纳单个 <code>Portal</code> 的空间。</p><p translation-origin="off">A <code>PortalOutlet</code> is an space that can contain a single <code>Portal</code>.</p>
-
+</h4><div class="docs-api-interface-description"><p>A <code>PortalOutlet</code> is an space that can contain a single <code>Portal</code>.</p>
+<p><code>PortalOutlet</code> 是一个可以容纳单个 <code>Portal</code> 的空间。</p>
 </div>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-13">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -3709,20 +3881,22 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">attach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">把这个传送点连接到这个出口地标。</p><p translation-origin="off">Attaches a portal to this outlet.</p>
-
+      <p>Attaches a portal to this outlet.</p>
+<p>把这个传送点连接到这个出口地标。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         portal</p>
@@ -3734,13 +3908,15 @@ application context.</p>
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">any</code>
     </td>
@@ -3749,7 +3925,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3761,19 +3937,21 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">detach
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">从当前出口地标上拆除已经附着上的传送点。</p><p translation-origin="off">Detaches the currently attached portal from this outlet.</p>
-
+      <p>Detaches the currently attached portal from this outlet.</p>
+<p>从当前出口地标上拆除已经附着上的传送点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">any</code>
     </td>
@@ -3782,7 +3960,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3794,13 +3972,13 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">dispose
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">在销毁之前，先进行清理。</p><p translation-origin="off">Performs cleanup before the outlet is destroyed.</p>
-
+      <p>Performs cleanup before the outlet is destroyed.</p>
+<p>在销毁之前，先进行清理。</p>
 
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3812,19 +3990,21 @@ application context.</p>
       <th colspan="2" class="docs-api-method-name-cell">hasAttached
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">当前是否有一个连接到此出口地标的传送点。</p><p translation-origin="off">Whether there is currently a portal attached to this outlet.</p>
-
+      <p>Whether there is currently a portal attached to this outlet.</p>
+<p>当前是否有一个连接到此出口地标的传送点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">boolean</code>
     </td>
@@ -3833,7 +4013,7 @@ application context.</p>
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -3853,7 +4033,8 @@ application context.</p>
 </h4><div class="docs-api-type-alias-deprecated-marker" title="将会在 v9.0.0 或更高版本中删除">
   已弃用
 </div><div class="docs-markdown">
-<pre class="docs-markdown-pre"><code class="docs-markdown-code"><span class="hljs-keyword">type</span> PortalHost = PortalOutlet;</code>
+<pre class="docs-markdown-pre">
+<code class="docs-markdown-code"><span class="hljs-keyword">type</span> PortalHost = PortalOutlet;</code>
 </pre>
 </div>
 
@@ -3864,10 +4045,11 @@ application context.</p>
 <h4 id="CdkPortalOutletAttachedRef" class="docs-header-link docs-api-h4 docs-api-type-alias-name">
   <span header-link="CdkPortalOutletAttachedRef"></span>
   <code>CdkPortalOutletAttachedRef</code>
-</h4><div class="docs-api-type-alias-description"><p translation-result="on">可能附着于此 CdkPortalOutlet 上的引用。</p><p translation-origin="off">Possible attached references to the CdkPortalOutlet.</p>
-
+</h4><div class="docs-api-type-alias-description"><p>Possible attached references to the CdkPortalOutlet.</p>
+<p>可能附着于此 CdkPortalOutlet 上的引用。</p>
 </div><div class="docs-markdown">
-<pre class="docs-markdown-pre"><code class="docs-markdown-code"><span class="hljs-keyword">type</span> CdkPortalOutletAttachedRef = ComponentRef&lt;<span class="hljs-built_in">any</span>&gt; | EmbeddedViewRef&lt;<span class="hljs-built_in">any</span>&gt; | <span class="hljs-literal">null</span>;</code>
+<pre class="docs-markdown-pre">
+<code class="docs-markdown-code"><span class="hljs-keyword">type</span> CdkPortalOutletAttachedRef = ComponentRef&lt;<span class="hljs-built_in">any</span>&gt; | EmbeddedViewRef&lt;<span class="hljs-built_in">any</span>&gt; | <span class="hljs-literal">null</span>;</code>
 </pre>
 </div>
 

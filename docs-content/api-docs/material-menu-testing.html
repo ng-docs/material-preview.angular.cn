@@ -16,7 +16,7 @@
 
 
 <div class="docs-api">
-  <h2 id="----angular-material-menu-testing-api-参考文档--">
+  <h2>
     Angular Material menu-testing API 参考文档
   </h2><p class="docs-api-module-import">
       <code>
@@ -34,11 +34,11 @@
   <span header-link="MatMenuHarness"></span>
   <code>MatMenuHarness</code>
   
-</h4><div class="docs-api-class-description"><p translation-result="on">在测试中可与标准 mat-menu 进行交互的测试工具。</p><p translation-origin="off">Harness for interacting with an MDC-based mat-menu in tests.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性">属性</h5>
+</h4><div class="docs-api-class-description"><p>Harness for interacting with an MDC-based mat-menu in tests.</p>
+<p>在测试中可与标准 mat-menu 进行交互的测试工具。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -47,20 +47,20 @@
 
 <tr class="docs-api-properties-row">
   <td class="docs-api-properties-name-cell"><p class="docs-api-property-name">
-      <code>static&nbsp;hostSelector: '.mat-mdc-menu-trigger'</code>
+      <code>static&nbsp;hostSelector: &#39;.mat-mdc-menu-trigger&#39;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on"><code>MatMenu</code> 实例的宿主元素选择器。</p><p translation-origin="off">The selector for the host element of a <code>MatMenu</code> instance.</p>
-
+  <td class="docs-api-property-description"><p>The selector for the host element of a <code>MatMenu</code> instance.</p>
+<p><code>MatMenu</code> 实例的宿主元素选择器。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -72,19 +72,21 @@
         </div>blur
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">让此菜单失焦。</p><p translation-origin="off">Blurs the menu.</p>
-
+      <p>Blurs the menu.</p>
+<p>让此菜单失焦。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -94,7 +96,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -108,30 +110,32 @@
         </div>clickItem
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">单击菜单中的菜单项，然后有选择地继续单击后续子菜单中的菜单项。</p><p translation-origin="off">Clicks an item in the menu, and optionally continues clicking items in subsequent sub-menus.</p>
-
+      <p>Clicks an item in the menu, and optionally continues clicking items in subsequent sub-menus.</p>
+<p>单击菜单中的菜单项，然后有选择地继续单击后续子菜单中的菜单项。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         itemFilter</p>
-      <code class="docs-api-method-parameter-type">Omit&lt;ItemFilters, "ancestor"&gt;</code>
+      <code class="docs-api-method-parameter-type">Omit&lt;ItemFilters, &quot;ancestor&quot;&gt;</code>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">用于表示应单击菜单中哪个菜单项的过滤器。将单击第一个匹配的菜单项。</p><p translation-origin="off">A filter used to represent which item in the menu should be clicked. The
+        <p>A filter used to represent which item in the menu should be clicked. The
     first matching menu item will be clicked.</p>
-
+<p>用于表示应单击菜单中哪个菜单项的过滤器。将单击第一个匹配的菜单项。</p>
 
       </div>
     </td>
@@ -145,10 +149,10 @@
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">代表要在任何后续子菜单中单击的菜单项的过滤器列表。将单击与 <code>subItemFilters</code> 的相应过滤器匹配的第一项。</p><p translation-origin="off">A list of filters representing the items to click in any subsequent
+        <p>A list of filters representing the items to click in any subsequent
     sub-menus. The first item in the sub-menu matching the corresponding filter in
     <code>subItemFilters</code> will be clicked.</p>
-
+<p>代表要在任何后续子菜单中单击的菜单项的过滤器列表。将单击与 <code>subItemFilters</code> 的相应过滤器匹配的第一项。</p>
 
       </div>
     </td>
@@ -158,7 +162,7 @@
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         ...subItemFilters</p>
-      <code class="docs-api-method-parameter-type">Omit&lt;ItemFilters, "ancestor"&gt;[]</code>
+      <code class="docs-api-method-parameter-type">Omit&lt;ItemFilters, &quot;ancestor&quot;&gt;[]</code>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
@@ -166,13 +170,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -182,7 +188,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -196,19 +202,21 @@
         </div>close
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">关闭菜单。</p><p translation-origin="off">Closes the menu.</p>
-
+      <p>Closes the menu.</p>
+<p>关闭菜单。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -218,7 +226,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -232,19 +240,21 @@
         </div>focus
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">让此菜单获得焦点。</p><p translation-origin="off">Focuses the menu.</p>
-
+      <p>Focuses the menu.</p>
+<p>让此菜单获得焦点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -254,7 +264,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -270,12 +280,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         selector</p>
@@ -287,13 +299,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;HarnessLoader[]&gt;</code>
     </td>
@@ -302,7 +316,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -318,12 +332,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         query</p>
@@ -335,13 +351,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;T[]&gt;</code>
     </td>
@@ -350,7 +368,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -366,12 +384,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         selector</p>
@@ -383,13 +403,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;HarnessLoader&gt;</code>
     </td>
@@ -398,7 +420,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -414,12 +436,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         query</p>
@@ -431,13 +455,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;T&gt;</code>
     </td>
@@ -446,7 +472,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -462,12 +488,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         query</p>
@@ -479,13 +507,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;T | null&gt;</code>
     </td>
@@ -494,7 +524,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -508,40 +538,44 @@
         </div>getItems
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取代表菜单项的 <code>MatMenuItemHarness</code>。</p><p translation-origin="off">Gets a list of <code>MatMenuItemHarness</code> representing the items in the menu.</p>
-
+      <p>Gets a list of <code>MatMenuItemHarness</code> representing the items in the menu.</p>
+<p>获取代表菜单项的 <code>MatMenuItemHarness</code>。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         filters<span class="docs-api-method-parameter-optional-marker">?</span></p>
-      <code class="docs-api-method-parameter-type">Omit&lt;ItemFilters, "ancestor"&gt;</code>
+      <code class="docs-api-method-parameter-type">Omit&lt;ItemFilters, &quot;ancestor&quot;&gt;</code>
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">（可选）过滤包含哪些菜单项。</p><p translation-origin="off">Optionally filters which menu items are included.</p>
-
+        <p>Optionally filters which menu items are included.</p>
+<p>（可选）过滤包含哪些菜单项。</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;Item[]&gt;</code>
     </td>
@@ -550,7 +584,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -564,19 +598,21 @@
         </div>getTriggerText
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取菜单的触发元素的文本。</p><p translation-origin="off">Gets the text of the menu's trigger element.</p>
-
+      <p>Gets the text of the menu&#39;s trigger element.</p>
+<p>获取菜单的触发元素的文本。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;string&gt;</code>
     </td>
@@ -585,7 +621,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -601,12 +637,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         query</p>
@@ -618,13 +656,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -633,7 +673,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -647,19 +687,21 @@
         </div>host
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取一个代表该组件宿主元素的 <code>TestElement</code> 型 <code>Promise</code>。</p><p translation-origin="off">Gets a <code>Promise</code> for the <code>TestElement</code> representing the host element of the component.</p>
-
+      <p>Gets a <code>Promise</code> for the <code>TestElement</code> representing the host element of the component.</p>
+<p>获取一个代表该组件宿主元素的 <code>TestElement</code> 型 <code>Promise</code>。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;TestElement&gt;</code>
     </td>
@@ -668,7 +710,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -682,19 +724,21 @@
         </div>isDisabled
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">菜单是否已禁用。</p><p translation-origin="off">Whether the menu is disabled.</p>
-
+      <p>Whether the menu is disabled.</p>
+<p>菜单是否已禁用。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -703,7 +747,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -717,19 +761,21 @@
         </div>isFocused
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">菜单是否拥有焦点。</p><p translation-origin="off">Whether the menu is focused.</p>
-
+      <p>Whether the menu is focused.</p>
+<p>菜单是否拥有焦点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -738,7 +784,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -752,19 +798,21 @@
         </div>isOpen
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">菜单是否已打开。</p><p translation-origin="off">Whether the menu is open.</p>
-
+      <p>Whether the menu is open.</p>
+<p>菜单是否已打开。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -773,7 +821,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -787,19 +835,21 @@
         </div>open
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">打开菜单</p><p translation-origin="off">Opens the menu.</p>
-
+      <p>Opens the menu.</p>
+<p>打开菜单</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -809,7 +859,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -823,20 +873,22 @@
         </div>with
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取一个 <code>HarnessPredicate</code>，可用于搜索满足某些条件的 <code>MatMenuHarness</code>。</p><p translation-origin="off">Gets a <code>HarnessPredicate</code> that can be used to search for a menu with specific attributes.</p>
-
+      <p>Gets a <code>HarnessPredicate</code> that can be used to search for a menu with specific attributes.</p>
+<p>获取一个 <code>HarnessPredicate</code>，可用于搜索满足某些条件的 <code>MatMenuHarness</code>。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         options</p>
@@ -844,30 +896,32 @@
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">用于过滤哪些菜单实例应该视为匹配项的选项。</p><p translation-origin="off">Options for filtering which menu instances are considered a match.</p>
-
+        <p>Options for filtering which menu instances are considered a match.</p>
+<p>用于过滤哪些菜单实例应该视为匹配项的选项。</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">HarnessPredicate&lt;T&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">使用给定选项配置过的 <code>HarnessPredicate</code></p><p translation-origin="off">a <code>HarnessPredicate</code> configured with the given options.</p>
-
+        <p>a <code>HarnessPredicate</code> configured with the given options.</p>
+<p>使用给定选项配置过的 <code>HarnessPredicate</code></p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -881,11 +935,11 @@
   <span header-link="MatMenuItemHarness"></span>
   <code>MatMenuItemHarness</code>
   
-</h4><div class="docs-api-class-description"><p translation-result="on">在测试中可与标准 mat-menu-item 进行交互的测试工具。</p><p translation-origin="off">Harness for interacting with an MDC-based mat-menu-item in tests.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-1">属性</h5>
+</h4><div class="docs-api-class-description"><p>Harness for interacting with an MDC-based mat-menu-item in tests.</p>
+<p>在测试中可与标准 mat-menu-item 进行交互的测试工具。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -894,20 +948,20 @@
 
 <tr class="docs-api-properties-row">
   <td class="docs-api-properties-name-cell"><p class="docs-api-property-name">
-      <code>static&nbsp;hostSelector: '.mat-mdc-menu-item'</code>
+      <code>static&nbsp;hostSelector: &#39;.mat-mdc-menu-item&#39;</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on"><code>MatMenuItem</code> 实例的宿主元素选择器。</p><p translation-origin="off">The selector for the host element of a <code>MatMenuItem</code> instance.</p>
-
+  <td class="docs-api-property-description"><p>The selector for the host element of a <code>MatMenuItem</code> instance.</p>
+<p><code>MatMenuItem</code> 实例的宿主元素选择器。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
-<h5 class="docs-api-h5 docs-api-method-header" id="方法-1">方法</h5>
+<h5 class="docs-api-h5 docs-api-method-header">方法</h5>
   
     
 
@@ -919,19 +973,21 @@
         </div>blur
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">让此菜单项失焦。</p><p translation-origin="off">Blurs the menu item.</p>
-
+      <p>Blurs the menu item.</p>
+<p>让此菜单项失焦。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -941,7 +997,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -955,19 +1011,21 @@
         </div>click
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">单击此菜单项。</p><p translation-origin="off">Clicks the menu item.</p>
-
+      <p>Clicks the menu item.</p>
+<p>单击此菜单项。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -977,7 +1035,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -991,19 +1049,21 @@
         </div>focus
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">让本菜单项获得焦点。</p><p translation-origin="off">Focuses the menu item.</p>
-
+      <p>Focuses the menu item.</p>
+<p>让本菜单项获得焦点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;void&gt;</code>
     </td>
@@ -1013,7 +1073,7 @@
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1029,12 +1089,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         selector</p>
@@ -1046,13 +1108,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;HarnessLoader[]&gt;</code>
     </td>
@@ -1061,7 +1125,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1077,12 +1141,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         query</p>
@@ -1094,13 +1160,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;T[]&gt;</code>
     </td>
@@ -1109,7 +1177,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1125,12 +1193,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         selector</p>
@@ -1142,13 +1212,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;HarnessLoader&gt;</code>
     </td>
@@ -1157,7 +1229,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1173,12 +1245,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         query</p>
@@ -1190,13 +1264,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;T&gt;</code>
     </td>
@@ -1205,7 +1281,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1221,12 +1297,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         query</p>
@@ -1238,13 +1316,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;T | null&gt;</code>
     </td>
@@ -1253,7 +1333,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1267,19 +1347,21 @@
         </div>getSubmenu
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取与此菜单项关联的子菜单；如果没有，则为 null。</p><p translation-origin="off">Gets the submenu associated with this menu item, or null if none.</p>
-
+      <p>Gets the submenu associated with this menu item, or null if none.</p>
+<p>获取与此菜单项关联的子菜单；如果没有，则为 null。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;Menu | null&gt;</code>
     </td>
@@ -1288,7 +1370,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1302,19 +1384,21 @@
         </div>getText
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取此菜单项的文本。</p><p translation-origin="off">Gets the text of the menu item.</p>
-
+      <p>Gets the text of the menu item.</p>
+<p>获取此菜单项的文本。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;string&gt;</code>
     </td>
@@ -1323,7 +1407,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1339,12 +1423,14 @@
     </tr>
   </thead><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         query</p>
@@ -1356,13 +1442,15 @@
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -1371,7 +1459,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1385,19 +1473,21 @@
         </div>hasSubmenu
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">此菜单项是否具有子菜单。</p><p translation-origin="off">Whether this item has a submenu.</p>
-
+      <p>Whether this item has a submenu.</p>
+<p>此菜单项是否具有子菜单。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -1406,7 +1496,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1420,19 +1510,21 @@
         </div>host
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取一个代表该组件宿主元素的 <code>TestElement</code> 型 <code>Promise</code>。</p><p translation-origin="off">Gets a <code>Promise</code> for the <code>TestElement</code> representing the host element of the component.</p>
-
+      <p>Gets a <code>Promise</code> for the <code>TestElement</code> representing the host element of the component.</p>
+<p>获取一个代表该组件宿主元素的 <code>TestElement</code> 型 <code>Promise</code>。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;TestElement&gt;</code>
     </td>
@@ -1441,7 +1533,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1455,19 +1547,21 @@
         </div>isDisabled
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">此菜单是否已禁用。</p><p translation-origin="off">Whether the menu is disabled.</p>
-
+      <p>Whether the menu is disabled.</p>
+<p>此菜单是否已禁用。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -1476,7 +1570,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1490,19 +1584,21 @@
         </div>isFocused
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">此菜单项是否具有焦点。</p><p translation-origin="off">Whether the menu item is focused.</p>
-
+      <p>Whether the menu item is focused.</p>
+<p>此菜单项是否具有焦点。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">Promise&lt;boolean&gt;</code>
     </td>
@@ -1511,7 +1607,7 @@
         
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1525,20 +1621,22 @@
         </div>with
       </th>
     </tr>
-  </thead><tbody><tr class="docs-api-method-description-row">
+  </thead><tr class="docs-api-method-description-row">
     <td colspan="2" class="docs-api-method-description-cell">
-      <p translation-result="on">获取一个 <code>HarnessPredicate</code>，可用于搜索满足某些条件的 <code>MatMenuItemHarness</code>。</p><p translation-origin="off">Gets a <code>HarnessPredicate</code> that can be used to search for a menu item with specific attributes.</p>
-
+      <p>Gets a <code>HarnessPredicate</code> that can be used to search for a menu item with specific attributes.</p>
+<p>获取一个 <code>HarnessPredicate</code>，可用于搜索满足某些条件的 <code>MatMenuItemHarness</code>。</p>
 
     </td>
-  </tr></tbody><thead>
+  </tr><thead>
     <tr class="docs-api-method-parameters-header-row">
-      <th colspan="2" class="docs-api-method-parameters-header-cell"><nt-wrapper translation-result="on">参数</nt-wrapper><nt-wrapper translation-origin="off">Parameters</nt-wrapper></th>
+      <th colspan="2" class="docs-api-method-parameters-header-cell">Parameters</th>
     </tr>
-    
+    <tr class="docs-api-method-parameters-header-row">
+      <th colspan="2" class="docs-api-method-parameters-header-cell">参数</th>
+    </tr>
   </thead>
   
-  <tbody><tr class="docs-api-method-parameter-row">
+  <tr class="docs-api-method-parameter-row">
     <td class="docs-api-method-parameter-cell">
       <p class="docs-api-method-parameter-name">
         options</p>
@@ -1546,30 +1644,32 @@
     </td>
     <td class="docs-api-method-parameter-description-cell">
       <div class="docs-api-method-parameter-description">
-        <p translation-result="on">用于过滤哪些菜单项实例应该视为匹配项的选项。</p><p translation-origin="off">Options for filtering which menu item instances are considered a match.</p>
-
+        <p>Options for filtering which menu item instances are considered a match.</p>
+<p>用于过滤哪些菜单项实例应该视为匹配项的选项。</p>
 
       </div>
     </td>
   </tr>
-  </tbody><thead>
+  <thead>
     <tr class="docs-api-method-returns-header-row">
-        <th colspan="2" class="docs-api-method-returns-header-cell"><nt-wrapper translation-result="on">返回值</nt-wrapper><nt-wrapper translation-origin="off">Returns</nt-wrapper></th>
+        <th colspan="2" class="docs-api-method-returns-header-cell">Returns</th>
     </tr>
-    
+    <tr class="docs-api-method-returns-header-row">
+      <th colspan="2" class="docs-api-method-returns-header-cell">返回值</th>
+    </tr>
   </thead>
-  <tbody><tr>
+  <tr>
     <td class="docs-api-method-returns-type-cell">
       <code class="docs-api-method-returns-type">HarnessPredicate&lt;T&gt;</code>
     </td>
     <td class="docs-api-method-returns-description-cell">
       <div class="docs-api-method-returns-description">
-        <p translation-result="on">使用给定选项配置过的 <code>HarnessPredicate</code></p><p translation-origin="off">a <code>HarnessPredicate</code> configured with the given options.</p>
-
+        <p>a <code>HarnessPredicate</code> configured with the given options.</p>
+<p>使用给定选项配置过的 <code>HarnessPredicate</code></p>
 
       </div>
     </td>
-  </tr></tbody></table>
+  </tr></table>
 
 
   
@@ -1586,11 +1686,11 @@
 <h4 id="MenuHarnessFilters" class="docs-header-link docs-api-h4 docs-api-interface-name">
   <span header-link="MenuHarnessFilters"></span>
   <code>MenuHarnessFilters</code>
-</h4><div class="docs-api-interface-description"><p translation-result="on">一组可用于过滤 <code>MatMenuHarness</code> 实例列表的条件。</p><p translation-origin="off">A set of criteria that can be used to filter a list of <code>MatMenuHarness</code> instances.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-2">属性</h5>
+</h4><div class="docs-api-interface-description"><p>A set of criteria that can be used to filter a list of <code>MatMenuHarness</code> instances.</p>
+<p>一组可用于过滤 <code>MatMenuHarness</code> 实例列表的条件。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -1602,14 +1702,14 @@
       <code>triggerText: string | RegExp</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">仅查找其触发文本与给定值匹配的实例。</p><p translation-origin="off">Only find instances whose trigger text matches the given value.</p>
-
+  <td class="docs-api-property-description"><p>Only find instances whose trigger text matches the given value.</p>
+<p>仅查找其触发文本与给定值匹配的实例。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
 
@@ -1622,11 +1722,11 @@
 <h4 id="MenuItemHarnessFilters" class="docs-header-link docs-api-h4 docs-api-interface-name">
   <span header-link="MenuItemHarnessFilters"></span>
   <code>MenuItemHarnessFilters</code>
-</h4><div class="docs-api-interface-description"><p translation-result="on">一组可用于过滤 <code>MatMenuItemHarness</code> 实例列表的条件。</p><p translation-origin="off">A set of criteria that can be used to filter a list of <code>MatMenuItemHarness</code> instances.</p>
-
-</div><h5 class="docs-api-h5 docs-api-method-header" id="属性-3">属性</h5>
+</h4><div class="docs-api-interface-description"><p>A set of criteria that can be used to filter a list of <code>MatMenuItemHarness</code> instances.</p>
+<p>一组可用于过滤 <code>MatMenuItemHarness</code> 实例列表的条件。</p>
+</div><h5 class="docs-api-h5 docs-api-method-header">属性</h5>
   <table class="docs-api-properties-table">
-    <tbody><tr class="docs-api-properties-header-row">
+    <tr class="docs-api-properties-header-row">
       <th class="docs-api-properties-th">名称</th>
       <th class="docs-api-properties-th">描述</th>
     </tr>
@@ -1638,8 +1738,8 @@
       <code>hasSubmenu: boolean</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">仅查找具有子菜单的实例。</p><p translation-origin="off">Only find instances that have a sub-menu.</p>
-
+  <td class="docs-api-property-description"><p>Only find instances that have a sub-menu.</p>
+<p>仅查找具有子菜单的实例。</p>
 </td>
 </tr>
 
@@ -1652,14 +1752,14 @@
       <code>text: string | RegExp</code>
     </p>
   </td>
-  <td class="docs-api-property-description"><p translation-result="on">只查找其文本内容匹配指定值的实例。</p><p translation-origin="off">Only find instances whose text matches the given value.</p>
-
+  <td class="docs-api-property-description"><p>Only find instances whose text matches the given value.</p>
+<p>只查找其文本内容匹配指定值的实例。</p>
 </td>
 </tr>
 
 
     
-  </tbody></table>
+  </table>
 
 
 
